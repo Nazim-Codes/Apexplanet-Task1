@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Finlandica+Headline:ital,wght@0,100..900;1,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Martian+Mono:wght@100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(45deg, #4159d0 0.000%, #c84fc0 50.000%, #ffcd70 100.000%); */
+    background-color: rgb(40, 4, 73);
+}
+
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bolder;
+    color: rgb(244, 214, 214);
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    color: white;
+    padding-left: 60px;
+}
+
+.about, .Tech, .know-more{
+    padding-top: 25px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    color: rgb(249, 138, 138);
+    font-family: "Libertinus Serif", serif;
+}
+
+.image{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image img{
+    border-radius: 10px;
+}
+
+.plinks{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.links{
+    padding-bottom: 7px;
+    padding-left: 30px;
+    color: rgb(249, 138, 138);
+    font-family: "Libertinus Serif", serif;
+}
+
+.linkedin, .github{
+    color: white;
+    padding-top: 5px;
+    padding-left: 55px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+ul{
+    color: white;
+    padding-left: 60px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.btn{
+    margin-left: 60px;
+    font-size: 15px;
+    width: 85px;
+    height: 30px;
+    background-color: bisque;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(169, 98, 98);
+}
+
+
